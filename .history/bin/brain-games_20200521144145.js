@@ -1,0 +1,1 @@
+consoloe('Welcome to the Brain Games!');
