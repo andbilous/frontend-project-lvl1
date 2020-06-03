@@ -1,0 +1,18 @@
+---
+
+plugins:
+  # https://github.com/jest-community/eslint-plugin-jest
+  - jest
+parser-
+# https://eslint.org/docs/user-guide/configuring#specifying-environments
+env:
+  node: true
+  es6: true
+
+extends:
+  - 'airbnb-base'
+  - 'plugin:jest/recommended'
+
+rules:
+    "no-console": "off",
+    import/extensions: "off" # FIXME: remove when rule will be adjusted for new nodejs version

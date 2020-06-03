@@ -1,0 +1,1 @@
+import {printName} from '../src/cli'
