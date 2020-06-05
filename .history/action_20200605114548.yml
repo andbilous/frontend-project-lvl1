@@ -1,0 +1,7 @@
+ steps:
+    - uses: actions/checkout@master
+    - uses: fregante/setup-git-token@v1
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    - run: git branch new-branch
+    - run: git push origin new-branch

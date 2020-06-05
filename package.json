@@ -24,6 +24,7 @@
     "eslint": "^7.1.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
+    "prettier": "^2.0.5",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
