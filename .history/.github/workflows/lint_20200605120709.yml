@@ -23,7 +23,7 @@ jobs:
       - name: Run linters
         uses: samuelmeuli/lint-action@v1
         with:
-          github_token: 0e52c17b27da05ae93f212cfc672bb4c41ffa16e
+          github_token: ${{ }}
           # Enable linters
           eslint: true
           prettier: true
